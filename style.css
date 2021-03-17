@@ -7,6 +7,67 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
 /* Add styles here! */
+/* Tested o, Chrome Browser
+1 problem : the main element has useless height. Don't know how to solve that 🤔
+*/ 
+h2 {
+  margin: 0px;
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 40%); /* medium */
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+header p {
+  max-width: 370px;
+  margin: 24px 0px;
+  font-size: 1.25rem;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%); /* light */
+  padding-top: 64px;
+  height: 100%;
+}
+
+.card {
+  background-color: white;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%); /* medium */
+  padding: 8px 24px 0px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  background: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  padding: 16px 24px 16px 38px;
+  margin-left: -38px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+.intro-chunk {
+  padding: 0px 24px;
+}
+
+.max-width-wrapper {
+  max-width: 660px;
+  margin: 0 auto;
+}
